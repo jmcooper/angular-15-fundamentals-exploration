@@ -89,7 +89,8 @@
               "browserTarget": "angular-webcontainer-template:build:production"
             },
             "development": {
-              "browserTarget": "angular-webcontainer-template:build:development"
+              "browserTarget": "angular-webcontainer-template:build:development",
+              "proxyConfig": "src/proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"
