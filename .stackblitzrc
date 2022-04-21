@@ -1,0 +1,6 @@
+{
+  "startCommand": "start",
+  "env": {
+    "NODE_ENV": "development"
+  }
+}
