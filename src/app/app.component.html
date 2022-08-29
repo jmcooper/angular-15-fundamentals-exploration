@@ -37,18 +37,14 @@ course.
 
 <h2>Product Data and Image Files</h2>
 This project has provided some sample product data and images for you to use!
+The images are in the /src/assets/images folder and the data is hardcoded in the
+app.component.ts file and is also available via the API.
 This data includes images and product data as shown below:
 
-<div
-  [ngStyle]="{ display: 'flex', 'flex-direction': 'column' }"
-  *ngFor="let product of products"
->
+<div [ngStyle]="{ display: 'flex', 'flex-direction': 'column' }" *ngFor="let product of products">
   <div [ngStyle]="{ display: 'flex', margin: '20px 0' }">
-    <img
-      src="{{ '/assets/images/robots/' + product.imageName }}"
-      [ngStyle]="{ width: '100px' }"
-      alt="{{ product.name }}"
-    />
+    <img src="{{ '/assets/images/robots/' + product.imageName }}" [ngStyle]="{ width: '100px' }"
+      alt="{{ product.name }}" />
     <div [ngStyle]="{ display: 'flex', 'flex-direction': 'column' }">
       <div>Name: {{ product.name }}</div>
       <div>Price: {{ product.price }}</div>
