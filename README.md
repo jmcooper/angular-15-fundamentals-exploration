@@ -1,4 +1,4 @@
-# Angular Fundamentals Exploration
+# Angular 15 Fundamentals Exploration
 
 This Stackblitz project is for use with the Pluralsight Angular Fundamentals
 course. Use this to explore on your own as you learn concepts throughout the
